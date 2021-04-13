@@ -6,14 +6,15 @@ public class Surname {
     private int count;
     private double proportion;
 
-    //Constructor
+    // Constructor
     public Surname(String name, int rank, int count, double proportion){
         setName(name);
         setRank(rank);
         setCount(count);
         setProportion(proportion);
     }
-    // Accessors
+
+    // Accessors to get data
     public String getName() {
         return name;
     }
@@ -29,7 +30,8 @@ public class Surname {
     public double getProportion() {
         return proportion;
     }
-    // Mutators
+
+    // Mutators to assign values from file to respective variables
     public void setName(String name) {
         this.name = name;
     }
